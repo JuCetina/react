@@ -1,10 +1,10 @@
 import './App.css';
-import Componentea from './components/Componentea';
+import Clock from './components/Clock';
 
 function App() {
   return (
     <div className="App">
-        <Componentea></Componentea>
+        <Clock></Clock>
     </div>
   );
 }
