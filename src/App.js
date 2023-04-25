@@ -1,10 +1,12 @@
 import './App.css';
-import Clock from './components/Clock';
+import ContactList from './components/ContactList';
 
 function App() {
+
+
   return (
     <div className="App">
-        <Clock></Clock>
+        <ContactList />
     </div>
   );
 }

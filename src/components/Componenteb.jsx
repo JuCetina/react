@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { Contacto } from '../models/contacto.class';
 
-function Componenteb({ contacto }) {
+function ComponenteB({ contacto }) {
 
     const [conectado, setconectado] = useState(contacto.conectado);
 
@@ -21,8 +21,8 @@ function Componenteb({ contacto }) {
     )
 }
 
-Componenteb.propTypes = {
+ComponenteB.propTypes = {
     contacto: PropTypes.instanceOf(Contacto)
 };
 
-export default Componenteb;
+export default ComponenteB;

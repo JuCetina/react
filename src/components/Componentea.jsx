@@ -1,18 +1,18 @@
 import React from 'react';
 import { Contacto } from '../models/contacto.class';
-import Componenteb from './Componenteb';
+import ComponenteB from './ComponenteB';
 
-function Componentea() {
+function ComponenteA() {
 
     const datos = new Contacto("Andrea", "Pérez", "prueba@prueba.com", true);
 
     return (
         <div>
-            <Componenteb contacto = { datos }></Componenteb>
+            <ComponenteB contacto = { datos }></ComponenteB>
         </div>
     )
 }
 
-export default Componentea;
+export default ComponenteA;
 
 
