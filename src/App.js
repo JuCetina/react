@@ -1,12 +1,12 @@
 import './App.css';
-import ContactList from './components/ContactList';
+import Square from './components/Square';
 
 function App() {
 
 
   return (
     <div className="App">
-        <ContactList />
+        <Square />
     </div>
   );
 }
